@@ -1,4 +1,6 @@
-//Suhaib Kankodi 1/20/22
+// Suhaib Kankodi 
+// 1/20/22
+// N220 #20816
 
 //create 3 variables for the shapes with set values
 let shapeX = 525;

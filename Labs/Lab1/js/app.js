@@ -1,3 +1,5 @@
+//Suhaib Kankodi 1/20/22
+
 //create 3 variables for the shapes with set values
 let shapeX = 525;
 let shapeY = 475;

@@ -29,6 +29,6 @@ function draw() {
 //reset ball to left edge, restart ball and change color
         xPos = 0;
         circle(xPos, 300, 50);
-        fill(230, 110, 30);
+        fill(235, 155, 55);
     }
 }

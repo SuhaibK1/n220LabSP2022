@@ -1,12 +1,12 @@
 // Suhaib Kankodi 
-// 1/27/22
+// 2/3/22
 // N220 #20816
 // Polar Points
 
-//add new function with argument to polar point (r)
-//in the function set x, y variables to sin, cos
-//at the end return createVector(x,y); 
-//test by drawing  circle at res.x, res.y, 10
+// add new function with argument to polar point (r)
+// in the function set x, y variables to sin, cos
+// at the end return createVector(x,y); 
+// test by drawing  circle at res.x, res.y, 10
 
 //setup canvas with dimensions
 function setup() {

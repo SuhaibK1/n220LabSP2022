@@ -3,12 +3,10 @@
 // N220 #20816
 // Data
 
-// Make object with all the properties for a part on the screen - 
-// width, height, color, position. Perhaps more. 
-// draw that object to the screen using the data in your object.
-// then create function to take argument and draw object to screen using argument 
-// pass your object to that function as argument
-// and have the function draw the object to screen
+// make object with properties for graphic 
+// draw to the screen using object data 
+// create function taking object as argument
+// have the function draw object to screen
 
  //create object
 let part = {
@@ -25,7 +23,7 @@ function setup() {
 
 //draw function
 function draw() {
-    background(140, 200, 220);
+    backgrouhnd(140, 200, 220);
     //fill using object data
     fill(part.color);
     //draw oject to screen using data

@@ -10,7 +10,7 @@
 //get div from html
 let favorRay = document.getElementById("favorRay");
 
-let favThings = ["Art", "Basketball", "Burgers", "Exploring", "Gaming"];
+let favThings = ["Art", "Basketball", "Burgers", "Gaming", "Exploring"];
 
 for(var i = 0; i < favThings.length; i++) {
 

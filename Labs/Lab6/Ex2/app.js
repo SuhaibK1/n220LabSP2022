@@ -35,5 +35,4 @@ for(var i = 0; i < 26; i++) {
         beepBop.innerHTML = i;
     }
     console.log(i);
-
-
+}

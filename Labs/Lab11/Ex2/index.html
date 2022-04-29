@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box" id="color"></div>
+    <div id="number">Current Color: RGB()</div>
+    <h3>Red: </h3>
+    <button onclick="mixColor(event)" color = "red" value = "1">+1</button>
+    <button onclick="mixColor(event)" color = "red" value = "5">+5</button>
+    <button onclick="mixColor(event)" color = "red" value = "10">+10</button>
+
+    <h3>Green: </h3>
+    <button onclick="mixColor(event)" color = "green" value = "1">+1</button>
+    <button onclick="mixColor(event)" color = "green" value = "5">+5</button>
+    <button onclick="mixColor(event)" color = "green" value = "10">+10</button>
+
+    <h3>Blue: </h3>
+    <button onclick="mixColor(event)" color = "blue" value = "1">+1</button>
+    <button onclick="mixColor(event)" color = "blue" value = "5">+5</button>
+    <button onclick="mixColor(event)" color = "blue" value = "10">+10</button>
+
+    <script src="app.js"></script>
+</body>
+<style>
+    button{
+        margin: 15px;
+        float: left;
+    }
+    h3{
+        color: grey;
+        float: left;
+
+    }
+    .box{
+        background-color: black;
+        height: 300px;
+        width: 700px;
+        margin-bottom: 10px;
+    }
+    div{
+        background-color: lightgrey;
+        height: 100px;
+        width: 700px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 30px;
+    }
+</style>
+</html>

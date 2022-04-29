@@ -9,7 +9,7 @@
 
 
 //create global variable for a counter
-let count= -1
+let count = -1
 
 //setup canvas with dimensions
 function setup() {

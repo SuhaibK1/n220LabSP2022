@@ -12,7 +12,7 @@ let favorRay = document.getElementById("favorRay");
 
 let favThings = ["Art", "Basketball", "Burgers", "Gaming", "Exploring"];
 
-for(var i = 0; i < favThings.length; i++) {
+for(let i = 0; i < favThings.length; i++) {
 
     favorRay.innerHTML = favThings[i] + ", is one of my favorite things." + "<br />"; 
 }

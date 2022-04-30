@@ -5,7 +5,6 @@
 
 // Create classic memory game with 4x4 grid of cards
 
-document.addEventListener("DOMContentLoaded", () => {
 //create array of all card option pairs
 let cardsArray = [
     //use name and add image for each card 
@@ -74,4 +73,3 @@ function selectCard() {
         setTimeout(checkPairs, 500);
     }
 }
-})
